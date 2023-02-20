@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("https://keen-gumdrop-bfcf80.netlify.app")
+@CrossOrigin("https://crud-springboot-fullstack.netlify.app")
 public class UserController {
     @Autowired
     private UserRepository userRepository;
