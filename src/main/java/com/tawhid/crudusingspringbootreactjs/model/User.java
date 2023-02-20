@@ -1,13 +1,20 @@
 package com.tawhid.crudusingspringbootreactjs.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class User {
     @Id
-    @GeneratedValue
+
+    @SequenceGenerator(name= "seq_id",
+            sequenceName = "id",
+            initialValue = 1,
+            allocationSize = 1)
+
+    @GeneratedValue(
+            strategy = GenerationType.AUTO,
+            generator = "seq_id"
+    )
     private Long id;
     private String username;
     private String name;
