@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://keen-gumdrop-bfcf80.netlify.app")
 public class UserController {
     @Autowired
     private UserRepository userRepository;
