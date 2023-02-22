@@ -1,9 +1,22 @@
+# Spring Boot Fullstack CRUD Operations
+
+Full Stack Crud Operations Using Spring Boot and React.Js
+
+## Demo
+
+Full Stack Working Demo: https://crud-springboot-fullstack.netlify.app/
+
+## Project Demo Screenshots
+
+![App Screenshot]()
+
+![App Screenshot]()
+
+![App Screenshot]()
 
 
 
-
-
-## Railway
+### Railway
 
 Bring your code, we'll handle the rest. Made for any language, for projects big and small. [Railway](https://railway.app/)
 is the cloud that takes the complexity out of shipping software.
@@ -16,7 +29,7 @@ spring_profiles_active=prod
 PROD_DB_HOST=containers-us-west-124.railway.app
 PROD_DB_PORT=5540
 PROD_DB_NAME=railway
-PROD_DB_PASSWORD=LbNPV50h5SBiLEPKuJ6c
+PROD_DB_PASSWORD=******
 PROD_DB_USERNAME=root
 ```
 
